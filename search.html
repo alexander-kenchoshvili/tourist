@@ -1,0 +1,548 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Search Page</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <a href="index.html"><img src="assets/img/LOGO FLYOUT.svg" alt=""></a>
+                <ul class="menu">
+                    <button class="close-menu"><img src="assets/img/close (1).svg" alt=""></button>
+                    <li><a href="detail.html">ტურები</a></li>
+                    <li><a href="visa-support.html">ვიზა</a></li>
+                    <li><a href="#">ავიაბილეთები</a></li>
+                    <li><a href="team.html">გუნდი</a></li>
+                    <li><a href="blog.html">ბლოგი</a></li>
+                    <li><a href="contact.html">კონტაქტი</a></li>
+                </ul>
+                <div class="header-info">
+                    <a class="call" href="Tel:+995 577 55 56 45"><img class="mr-10" src="assets/img/call.svg" alt="">+995 577 55 56 45</a>
+                    <ul class="soc">
+                        <li><a href="#"><img src="assets/img/search.svg" alt=""></a></li>
+                    </ul>
+                    <div class="langs">
+                        <img src="assets/img/georgia.svg" alt="">
+                    </div>
+                    <a href="#" class="covid-btn">
+                        Covid 19<img src="assets/img/virus.svg" alt="">
+                    </a>
+                    <button class="menu-btn"><img src="assets/img/menu.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section> 
+        <div class="finding-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="choose-direction">
+                            <span class="country" >აირჩიე ქვეყანა</span>
+                            <img src="assets/img/Vector-down.png" alt="">
+                        </div>
+                        <div class="countries">
+                            <ul class="direction-list">
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">იაპონია</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">ნორვეგია</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">თურქეთი</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">ესპანეთი</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">ინდოეთი</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="choose-direction">
+                            <span class="city">აირჩიე ქალაქი</span>
+                            <img src="assets/img/Vector-down.png" alt="">
+                        </div>
+                        <div class="cities">
+                            <ul class="direction-list">
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">ტოკიო</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">რეინე</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">სტამბული</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">ბარსელონა</a>
+                                </li>
+                                <li class="direction" >
+                                    <a class="direction-items" href="#">ბალი</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="range-caption">
+                            <p>
+                                <input type="text" id="amount" readonly style="border:0; color: #58616D; font-size: 14px;">
+                            </p> 
+                        </div>
+                        <div id="slider-range"></div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="search-bar">
+                            <form action="">
+                                <button>მოძებნე  <img src="assets/img/search-normal.svg" alt=""> </button> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="web-guide">
+            <div class="container">
+                <div class="guide-inner">
+                    <div class="main-guide">
+                     <ul>
+                         <li class="main-page" >
+                             <a href="index.html">მთავარი <img src="assets/img/Vector.svg" alt=""> </a>
+                         </li>
+                         <li class="main-page" >
+                            <a href="search.html">ძიება </a>
+                        </li>
+                        <li>
+                            <a class="result" href="#">სულ: 52 ტური</a>
+                        </li>
+                     </ul>
+                        
+                    </div>
+                    <div class="filtration">
+                        <div class="filter">
+                            <span>ფილტრაცია</span> 
+                            <img src="assets/img/Vector-down-black.png" alt="">
+                        </div>
+                        <div class="tour-filter">
+                            <ul class="local-tour" >
+                                <li class="tour-list">
+                                    <a class="options" href="#">option 1</a>
+                                </li>
+                                <li class="tour-list">
+                                    <a class="options" href="#">option 2</a>
+                                </li>
+                                <li class="tour-list">
+                                    <a class="options" href="#">option 3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="searching-tours">
+            <div class="container">
+                <div class="result-tours">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/jezael-melgoza-CudNrzbsyZw-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ტოკიო,იაპონია</span>
+                                <h6>აზიური სილამაზე</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>1 999</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/atif-zafrak-sVLaLi-2TpE-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ანტალია,თურქეთი</span>
+                                <h6>დაისვენე თურქეთის ერთ-ერთ
+                                    გამორჩეულ კურორტზე</h6>
+                            </div>    
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>2 250</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/seth-kane-XOEAHbE_vO8-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >რეინე,ნორვეგია</span>
+                                <h6>ადგილი, რომელიც არასდროს
+                                    დაგავიწყდება</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>2 790</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/adli-wahid-IavBkAdcpdQ-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >სტამბოლი,თურქეთი</span>
+                                <h6>აუცილებლად სანახავი</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>550</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/anna-0n0AHB1fgTQ-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >სტამბოლი,თურქეთი</span>
+                                <h6>აუცილებლად სანახავი</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>550</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="country-search.html">
+                                <img src="assets/img/toa-heftiba-a-w7wDtNWmo-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ბარსელონა,ესპანეთი</span>
+                                <h6>ესპანეთის მშვენება</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>875</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/jeremy-bishop-QUwLZNchflk-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ბალი,ინდონეზია</span>
+                                <h6>გამორჩეულად ეგზოტიკური ადგილი
+                                ეს ბალია</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>1 860</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/jorn-eriksen-p9brPAo5dkM-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >რეინე,ნორვეგიაა</span>
+                                <h6>ადგილი, რომელიც არასდროს
+                                დაგავიწყდება</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>1 999</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/jeremy-bishop-QUwLZNchflk-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ბალი,ინდონეზია</span>
+                                <h6>გამორჩეულად ეგზოტიკური ადგილი
+                                ეს ბალია</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>1 860</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/atif-zafrak-sVLaLi-2TpE-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ანტალია,თურქეთი</span>
+                                <h6>დაისვენე თურქეთის ერთ-ერთ
+                                გამორჩეულ კურორტზე</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>2 250</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/jezael-melgoza-CudNrzbsyZw-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ტოკიო,იაპონია</span>
+                                <h6>აზიური სილამაზე</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>1 999</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/adli-wahid-IavBkAdcpdQ-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >სტამბოლი,თურქეთი</span>
+                                <h6>აუცილებლად სანახავი</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>550</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/anna-0n0AHB1fgTQ-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >სტამბოლი,თურქეთი</span>
+                                <h6>აუცილებლად სანახავი</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>550</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/atif-zafrak-sVLaLi-2TpE-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ანტალია,თურქეთი</span>
+                                <h6>დაისვენე თურქეთის ერთ-ერთ
+                                გამორჩეულ კურორტზე</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>2 250</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/jeremy-bishop-QUwLZNchflk-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ბალი,ინდონეზია</span>
+                                <h6>გამორჩეულად ეგზოტიკური ადგილი
+                                ეს ბალია</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>1 860</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-12">
+                            <a href="#">
+                                <img src="assets/img/jezael-melgoza-CudNrzbsyZw-unsplash.png" alt="">
+                            </a>
+                            <div class="tour-title-frame">
+                                <span class="tour-title" >ტოკიო,იაპონია</span>
+                                <h6>აზიური სილამაზე</h6>
+                            </div>
+                            <div class="similar-item">
+                                <div class="price-info">
+                                    <span class="gel" >₾  <b>1 999</b> </span>
+                                    <sub>/პერსონა</sub>
+                                </div>
+                                <a href="#">დაჯავშნე</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <div class="container">
+                <div class="pagination-inner">
+                    <div class="pagination-list">
+                        <form action="">
+                            <ul>
+                                <li>
+                                    <button>1</button>
+                                </li>
+                                <li>
+                                    <button>2</button>
+                                </li>
+                                <li>
+                                    <button>3</button>
+                                </li>
+                                <li class="points">
+                                    ...
+                                </li>
+                                <li>
+                                    <button>11</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="center-footer">
+                        <a href="index.html"><img src="assets/img/LOGO FLYOUT.svg" alt=""></a>
+                        <p class="about-company" >კომპანიის შესახებ, ერთი, ორი ან სამი სიტყვა დაიწერება აქ</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="center-footer">
+                        <span class="mb-10 caps fz-18 d-flex fwb">მიმართულებები</span>
+                        <ul class="list">
+                            <li><a href="#">იტალია</a></li>
+                            <li><a href="#">ესპანეთი</a></li>
+                            <li><a href="#">გერმანია</a></li>
+                            <li><a href="#">საბერძნეთი</a></li>
+                            <li><a href="#">კვიპროსი</a></li>
+                            <li><a href="#">დუბაი</a></li>
+                            <li><a href="#">მალდივები</a></li>
+                            <li><a href="#">ნიდერლანდები</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="center-footer">
+                        <span class="mb-10 caps fz-18 d-flex fwb">სერვისები</span>
+                        <ul class="list">
+                            <li><a href="#">სერვისი 1</a></li> 
+                            <li><a href="#">სერვისი 2</a></li> 
+                            <li><a href="#">სერვისი 3</a></li> 
+                            <li><a href="#">სერვისი 4</a></li> 
+                            <li><a href="#">სერვისი 5</a></li> 
+                            <li><a href="#">სერვისი 6</a></li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="center-footer">
+                        <span class="mb-10 caps fz-18 d-flex fwb">კონტაქტი</span>
+                        <ul class="list">
+                            <li class="mb-15"><a href="tel:+995 577 55 56 45"><img class="mr-10" src="assets/img/call-stroke.svg" alt="">+995 577 55 56 45</a></li>
+                            <li class="mb-15"><a href="mailto:"><img class="mr-10" src="assets/img/sms.svg" alt="">info@flyout.ge</a></li>
+                            <li class="mb-15"><a href="#"><img class="mr-10" src="assets/img/map.svg" alt="">პეკინის #25, თბილისი</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="social-footer">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/facebook-b.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/instagram-b.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/viber-b.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/whatsapp-b.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/linkedin-b.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        ყველა უფლება დაცულია - დამზადებულია <a href="#">CGROUP</a> -ის მიერ
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+        </footer>
+<script src="assets/js/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

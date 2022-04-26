@@ -1,0 +1,2606 @@
+@import url(reset.css);
+header{
+    padding: 18px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0 ;
+    background-color: white;
+    z-index: 200;
+    border-bottom: 1px solid #E6F0FD;
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-info{
+    display: flex;
+    align-items: center;
+}
+.header-info .soc{
+    display: flex;
+}
+.header-info .soc li{
+    margin-right: 25px;
+}
+.header-info .call{
+    margin-right: 24px;
+    padding-right: 24px;
+    border-right: 1px solid #E6F0FD;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: caps;
+    transition: 0.2s;
+}
+.header-info .call:hover{   
+    color: #0A6FE5;
+}
+header .menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.menu li:hover{
+    color: #0A6FE5;
+}
+header .menu a{
+    font-size: 14px;
+    font-family: caps;
+    margin-right: 24px;
+    color: #181818;
+    transition: 0.2s;
+    font-weight: bold;
+}
+header .menu a:hover,
+header .menu a.active{
+    color: #0A6FE5;
+}
+.covid-btn{
+    background-color: rgba(239, 116, 23, 0.1);
+    font-size: 14px;
+    font-family: caps;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    color: #EF7417;
+    font-weight: bold;
+    margin-left: 24px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+}
+.covid-btn img{
+    margin-left: 10px;
+}
+.covid-btn:hover{
+    background-color: white;
+    border: 1px solid #EF7417;
+    color: #EF7417;
+}
+section{
+    padding-top: 80px;
+}
+.intro {
+    background-color: #E6F0FD;
+    height: auto;
+    padding: 24px 0px;
+    border-radius: 0px 0px 0px 370px;
+}
+.intro .left{
+    padding-top: 120px;
+}
+.intro .sm-title{
+    display: flex;
+    font-size: 16px;
+    font-family: caps;
+    color: #0A6FE5;
+    font-weight: bold;
+}
+.intro .title{
+    font-size: 40px;
+    font-family: caps;
+    line-height: 53px;
+    font-weight: bold;
+}
+.intro .price{
+    font-size: 36px;
+    font-family: caps;
+    font-weight: bold;
+}
+.intro .price b{
+    font-size: 48px;
+    color: #0A6FE5;
+}
+.intro sub{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: caps;
+    top: 0;
+    left: 6px;
+}
+
+.circle-frame .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 552px;
+    grid-gap: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circle-frame .img-frame {
+    height: 264px;
+}
+.circle-frame{
+    display: flex;
+    justify-content: flex-end;
+}
+.intro-items{
+    position: relative;
+}
+.searching-box{
+    width: 827px;
+    height: 96px;
+    background-color: white;
+    position: absolute;
+    bottom: 46px;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+
+    
+}
+.tour-plan{
+    margin-right: 80px;
+}
+.tour-plan p::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 48px;
+    background-color: #DDDDDD;
+    bottom: 0;
+    right:0;
+    margin-right: -56px;
+}
+.tour-plan:nth-child(3) p::after{
+    display: none;
+}
+.request{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 141px;
+    height: 48px;
+    background-color:#0A6FE5;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: caps;
+    font-weight: bold;
+    margin-left: 4px;
+    border: 1px solid #0A6FE5;
+    transition: 0.5s;
+}
+.request:hover{
+    color: #0A6FE5;
+    background-color: #E6F0FD;
+    border: 1px solid #0A6FE5;
+}
+.request-tour{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.request-btn{
+    width: 188px;
+    height: 48px;
+    font-family: caps;
+    font-size: 16px;
+    color:white;
+    background-color: #0A6FE5;
+    border-radius: 8px;
+    
+}
+.intro-read-more{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-family: caps;
+    font-weight: bold;
+}
+.intro-read-more img{
+    margin-left: 8px;
+}
+
+.tour-plan h2{
+    margin-top: 5px;
+    color: #0A6FE5;
+    font-family: caps;
+    font-size: 12px;
+    font-weight: bold;
+    width: max-content
+}
+.tour-plan p{
+    position: relative;
+    font-size: 16px;
+    margin-top: 4px;
+}
+.title-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-title-wrapper{
+    font-size: 24px;
+    font-family: caps;
+}
+
+.title-wrapper .main-title{
+    font-size: 24px;
+    font-family: caps;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.read-more-services{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.read-more-services a{
+    width: 146px;
+    height: 48px;
+    border: 1px solid #0A6FE5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0A6FE5;
+    transition: 0.3s;
+    font-family: caps;
+}
+.read-more-services a:hover{
+    border: none;
+    background-color: #0A6FE5;
+    color: white;
+
+}
+.title-wrapper .main-title .sub-title{
+    font-size: 14px;
+    color: #58616D;
+}
+.locations{
+    margin-top: 93px;
+}
+.slider-btn button{
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid #ACC1DA;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-btn button:hover{
+    border: 1.5px solid #0A6FE5;
+}
+.title-wrapper{
+    margin-bottom: 24px;
+}
+.locations .box{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.locations .box .img-frame{
+    height: 380px;
+    width: 100%;
+    display: block;
+}
+.locations .box .img-frame::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 114px;
+    background-image: linear-gradient(to bottom, #0A6FE5, transparent);
+}
+
+.locations .title{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 24px;
+    left: 0;
+    padding: 0px 22px;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: caps;
+}
+.locations .box .price{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0A6FE5;
+}
+.locations .box .price span{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+    line-height: 15px;
+}
+.services{
+    width: 100%;
+    height: auto;
+    background-color: #E6F0FD;
+    position:relative;
+}
+
+.services-background{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 0 0 370px 0;
+    padding-top: 45px;
+    padding-bottom: 48px;
+}
+.services .box{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 29px 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(239,116,23,0.1);
+}
+
+.services .box .img-frame{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #EF7417;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .box .img-frame img{
+    height: 32px;
+}
+.services .box .title{
+    font-size: 14px;
+    color: #EF7417;
+}
+
+.services .box .sm-title{
+    font-size: 12px;
+}
+.dubai-visa{
+    background-color: #E6F0FD;
+    padding: 100px 0px;
+}
+.dubai-visa .white-block{
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    padding-right: 48px;
+    height: 260px;
+    align-items: center;
+}
+.dubai-visa .white-block .left{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 48px;
+    width: calc(100% - 500px);
+}
+.dubai-visa .white-block .sm-title{
+    font-size: 16px;
+    color: #0A6FE5;
+}
+.dubai-visa .white-block .title{
+    font-size: 30px;
+    font-family: caps;
+    font-weight: bold;
+    margin: 5px 0px 10px 0px;
+    line-height: 36px;
+}
+.primary-btn{
+    height: 48px;
+    background-color: #0A6FE5;
+    color: white;
+    transition: 0.2s;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    width: fit-content;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.primary-btn img{
+    margin-left: 10px;
+}
+.primary-btn:hover{
+    background-color: white;
+    border: 1px solid #0A6FE5;
+    color: #0A6FE5;
+}
+.primary-btn:hover img{ 
+    filter: invert(67%) sepia(86%) saturate(2561%) hue-rotate(203deg) brightness(95%) contrast(92%);
+}
+.dubai-visa .main-img{
+    width: 500px;
+    position: absolute;
+    right: 48px;
+    bottom: 0;
+}
+footer{
+    padding-top: 48px;
+    background-color: #E6F0FD;
+    margin-top: 100px;
+}
+.center-footer{
+    padding-bottom: 24px;
+}
+.about-company{
+    font-size: 14px;
+    color: #58616D;
+    line-height: 24px;
+    margin-top: 6px;
+}
+.footer-langs{
+    margin: 24px 0px;
+}
+.footer-langs a{
+    color: #58616D;
+    font-size: 16px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+.footer-langs a.active{
+    color: #181818;
+}
+.list{
+    padding-bottom: 24px;
+}
+footer .list a{
+    color: #58616D;
+    margin-bottom: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+footer .list a:hover{
+    color: #0A6FE5;
+}
+.footer-end{
+    margin-top: 48px;
+    border-top: 1px solid white;
+    
+}
+.footer-inner{
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-footer ul{
+    display: flex;
+}
+.social-footer li{
+    margin-right: 24px;
+}
+.copyright{
+    color: #181818;
+    font-size: 14px;
+}
+.copyright a{
+    color: #EFBE17;
+    font-weight: bold;
+}
+.blog{
+    margin-top: 100px;
+}
+.blog .left{
+    padding-right: 48px;
+}
+.right-blog-list{
+    border-left: 2px solid #E6F0FD;
+    padding-left: 48px;
+    margin-top: 24px;
+}
+.right-subtitle{
+    padding-left: 48px;
+    color: #58616D;
+    font-size: 14px;
+}
+.left-subtitle{
+    color: #58616D;
+    font-size: 14px;
+}
+.blog .left .img-frame{
+    height: 400px;
+    border-radius: 8px;
+    display: block;
+    margin-top: 24px;
+}
+.blog .sm-title{
+    color: #0A6FE5;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: caps;
+}
+.blog .title{
+    font-size: 18px;
+    font-family: caps;
+    font-weight: bold;
+}
+.blog .right li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.blog .right li:last-child{
+    margin-bottom: 0px;
+}
+.blog .right .img-frame{
+    width: 140px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+.blog .right .title{
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    max-height: 79px;
+    overflow: hidden;
+    font-weight: unset;
+}
+.blog .right .sm-title{
+    margin-top: 0px;
+}
+.day-tour{
+    background-color: #E6F0FD;
+}
+.day-tour-background{
+    background-color: white;
+    border-radius: 370px 0 0 0;
+    padding-top: 96px;
+}
+.day-tour .item{
+    display: flex;
+}
+.day-tour .left{
+    position: relative;
+    margin-right: 96px;
+}
+.day-tour .img-frame{
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+    display: block;
+}
+.day-tour .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.day-tour  .sm-title{
+    color: #0A6FE5;
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+    font-family: caps;
+}
+.day-tour .title{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.day-tour .text p{
+    color: #58616D;
+    font-size: 14px;
+}
+.day-tour .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.day-tour .primary-btn img{
+    width: fit-content;
+}
+.day-tour .price{
+    font-size: 30px;
+    color: #0A6FE5;
+}
+.day-tour .price b{
+    margin-left: 4px;
+    font-size: 36px;
+}
+.day-tour .slider-btn{
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    z-index: 1;
+    width: 130px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.menu-btn{
+    display: none;
+}
+.close-menu{
+    display: none;
+}
+@media (max-width: 1260px ){
+    header .menu{
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 190px;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        background: white;
+        display: none;
+    }
+    header .menu li{
+        margin-bottom: 10px;
+    }
+    .menu-btn{
+        display: block;
+        margin-left: 24px;
+    }
+    .menu-btn img{
+        width: 25px;
+    }
+    .close-menu{
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        z-index: 1;
+        display: block;
+    }
+    .close-menu img{
+        width: 15px;
+    }
+}
+
+
+/* **************** detail-page ************** */
+.detail-back{
+    padding-top: 33px;
+}
+.detail-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail-back-steps ul{
+    display: flex;
+    
+}
+.detail-back-steps a{
+   margin-left: 27px;
+   font-size: 14px;
+   font-weight: bold;
+   color: #58616D;
+}
+.back-arrow{
+    margin-left: 12px;  
+}
+.back-btn{
+    border: 1px solid #E6F0FD;
+    padding: 8px 12px 9px 0px;
+    border-radius: 16px;
+    font-size: 12px;
+    color: #58616D;
+    transition: 0.5s;
+}
+.back-btn:hover{
+    border: 1px solid #0A6FE5;
+    color: #0A6FE5;
+}
+.back-btn img{
+   padding-left: 13px;
+   margin-right: 12px;
+}
+
+.detail-photos{
+    padding-top: 31px;
+}
+.detail-left{
+    max-width: 801px;
+    border-radius: 8px;
+    margin-right: 6px;
+}
+.detail-left img{
+    width: 100%;
+}
+.detail-left-frame{
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.detail-photo-items{
+    display: flex;
+}
+.detail-right a{
+    margin-left: 6px;
+}
+.detail-right li{
+    margin-bottom: 6px;
+}
+.detail-right li img{
+    width: 100%;
+}
+.detail-info{
+    padding-top: 12px;
+}
+.main-info{
+    width: 801px;
+}
+.main-info-title{
+    border-bottom: 1px solid #E6F0FD;
+    padding-bottom: 25px;
+}
+.main-info-title span{
+    color: #58616D;
+    font-size: 14px;
+}
+.main-info-title h2{
+    font-family: caps;
+    font-size: 24px;
+    color: #181818;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.info-items{
+    display: flex;
+}
+.offer-list{
+    width: fit-content;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;    
+}
+.offer-list ul{
+    margin-right: 74px;
+}
+.offer-list li{
+    margin-bottom: 23px;
+    display: flex;
+}
+.offer-list a{
+    font-size: 16px;
+    color: #58616D;
+}
+.offer-list a img{
+    margin-right: 10px;
+}
+.call-for-more{
+    border: 1px solid #E6F0FD;
+    border-radius: 8px;
+    margin-left: 24px;
+    width: 384px;
+}
+.top-side{
+    padding: 24px 0px 12px;
+    margin: 0px 24px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E6F0FD;
+}
+.call-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #58616D;
+    border-radius: 100%;
+    
+}
+.mobile-information{
+    display: flex;
+    align-items: center;
+}
+.mobile-information:hover .call-now{
+    background-color: #0A6FE5;
+    transition: 0.5s;
+}
+.mobile-information:hover .calling{
+    color: #0A6FE5;
+    transition: 0.5s;
+}
+.mobile-information:hover span{
+    color:#0A6FE5;
+    transition: 0.5s;
+}
+
+.calling{
+    margin-left: 12px;
+}
+.bottom-side{
+    padding-top: 9px;
+    margin: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cost{
+    font-size: 24px;
+    font-family: caps;
+    color: #58616D;
+    font-weight: bold;
+}
+.cost b{
+    color: #181818;
+    font-size: 30px;
+    font-weight: normal;
+}
+.bottom-side sub{
+    font-size: 18px;
+    top: -5px;
+    color: #58616D;
+}
+.share-button{
+    padding: 8px 12px 9px 12px;
+    border: 1px solid #E6F0FD;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    color: #58616D;
+    transition: 0.5s;
+}
+.share-button:hover{
+    background-color: #E6F0FD;
+    border: 1px solid #0A6FE5;
+    color: #0A6FE5;
+}
+.share-button img{
+    margin-left: 12px;
+}
+.booking{
+    width: 100%;
+}
+.booking a{
+    margin-top: 23px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-family: caps;
+    padding: 14px 0 13px;
+    background-color: #6D428F;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    border: 1px solid #6D428F;
+    transition: 0.5s;
+}
+.booking a:hover{
+    background-color: white;
+    border: 1px solid #6D428F;
+    color: #6D428F;
+}
+.parent{
+    position: relative;
+    
+}
+.gallery{
+    width: 136px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    background-color: white;
+    border-radius: 16px;
+    font-size: 12px;
+    color: #58616D;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.gallery-img{
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+}
+.gallery-img-responsive{
+    display: none;
+}
+.gallery:hover{
+    background-color: #E6F0FD;
+    color: #0A6FE5;
+    border: 1px solid #0A6FE5;
+}
+.gallery img{
+    margin-right: 13px;
+}
+.table-section{
+    padding-top: 47px;
+}
+table{
+    width: 100%;
+}
+table thead{
+    width: 100%;
+    background-color: #ACC1DA;
+}
+table thead tr{
+    font-family: caps;
+    font-size: 14px;
+}
+table thead tr td{
+    padding: 15px 24px;   
+    font-family: caps;
+}
+table tbody tr{
+    font-family: caps;
+    font-size: 14px;
+}
+table tbody tr td{
+    padding: 6px 24px;
+    font-family: caps;
+}
+table tbody tr td:first-child{
+    color: #0A6FE5;
+}
+table tbody tr td:nth-of-type(5){
+    color: #6D428F;
+    font-weight: bold;
+    font-size: 18px;
+}
+table tbody tr td img{
+    margin-right: 24px;
+}
+tr:nth-child(even){
+    background-color: #E6F0FD;
+}
+table tbody tr td button{
+    padding: 5px 15px 7px 12px;
+    background-color: #0A6FE5;
+    color: white;
+    font-family: caps;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #0A6FE5;
+    transition: 0.5s;
+}
+table tbody tr td button:hover{
+    background-color: white;
+    border: 1px solid #0A6FE5;
+    color: #0A6FE5;
+}
+table tbody tr td:nth-last-child(1){
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 6px;
+}
+.warning{
+    padding-top: 48px;
+}
+.warning-items{
+    background-color: #E6F0FD;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+}
+.warning-items li{
+    margin:16px 0;
+    color: #0A6FE5;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+}
+.warning-items li span{
+    color: #0A6FE5;
+    font-weight: bold;
+    font-size: 14px;
+}
+.warning-items li img{
+    margin-right: 14px;
+}
+.similar-tour{
+    padding-top: 45px;
+}
+.similar-tour-title h3{
+    font-family: caps;
+    font-size: 24px;
+    font-weight: bold;
+}
+.similar-tour-items a img{
+    width: 100%;
+}
+.similar-tour-items{
+    padding-top: 24px;
+}
+.similar-tour-title span{
+    display: block;
+    margin-top: 5px;
+}
+.gel{
+    color: #0A6FE5;
+    font-size: 12px;
+    font-family: caps;
+    font-weight: bold;
+}
+.gel b{
+    font-family: caps;
+    font-size: 18px;
+    margin-left:3px;
+}
+.price-info sub{
+    font-size: 12px;
+    font-weight: bold;
+    top: -1px;
+    margin-left: 4px;
+    color: #58616D;
+}
+
+.similar-tour-items h6{
+    font-family: caps;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.similar-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 57px;
+    margin-top: 5px;
+}
+.similar-item a{
+    font-size: 12px;
+    font-family: caps;
+    color: #0A6FE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #E6F0FD;
+    border: 1px solid #E6F0FD;
+    transition: 0.5s;
+    font-weight: bold;
+    width: 85px;
+    height: 32px;
+}
+.similar-item a:hover{
+    background-color: white;
+    border: 1px solid #0A6FE5;
+}
+.tour-title{
+    font-size: 12px;
+    color: #58616D;
+    width: fit-content;
+}
+.result-tours h6{
+    font-family: caps;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.result-tours a img{
+    width: 100%;
+}
+
+/* **************** search-page ************** */
+.finding-section{
+    padding-top: 49px;
+}
+
+
+.choose-direction{
+    background-color: #F0F7FE;
+    padding: 16px 12px 15px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.border-active{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+ }
+.country,
+.city{
+    color: #58616D;
+    font-size: 14px;
+}
+
+.direction-list{
+    padding-left: 12px;
+    background-color: #F0F7FE;
+    width: 276px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    left: 12;
+    top: 54;
+    cursor: pointer;
+    z-index: 9;
+    display: none;
+    height: 85px;
+    overflow-y: scroll;
+}
+
+ .direction-list::-webkit-scrollbar{
+    width:8px;
+    border-radius: 8px;  
+}
+.direction-list::-webkit-scrollbar-thumb{
+    background-color: #BDC7D5;
+} 
+.direction{
+    padding: 5px 0;
+    color: #58616D;
+    font-size: 14px;
+}
+
+.direction-items{
+    color: #58616D;
+    font-size: 14px;
+    position: relative;
+}
+
+.direction-items::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #0A6FE5;
+    transition: all .3s;
+}
+.direction-items:hover::after{
+    width: 100%;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.search-bar button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A6FE5;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 282px;
+    height: 48px;
+    color: white;
+    font-family: caps;
+    font-size: 16px;
+}
+
+.search-bar img{
+   margin-left: 22px;
+}
+.web-guide{
+    padding-top: 48px;
+}
+.guide-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-guide ul{
+    display: flex;
+}
+
+.main-page a{
+    color: #58616D;
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.main-page img{
+    margin-left: 12px;
+}
+.result{
+    color: #0A6FE5;
+    font-size: 14px;
+    margin-left: 24px;
+}
+.result:hover{
+    color: #0A6FE5;
+}
+.filter{
+    color: #58616D;
+    font-size: 14px;
+}
+.filter span{
+    color: #58616D;
+    font-size: 14px;
+    cursor: pointer;
+}
+.filtration{
+    position: relative;
+}
+.local-tour{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 9;
+    color: #58616D;
+    font-size: 14px;
+    display: none;
+    width: 100%;
+    background-color: white;
+}
+.filter img{
+    margin-left: 6px;
+}
+.options{
+    color: #58616D;
+    font-size: 14px;
+    position: relative;
+}
+.options::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #0A6FE5;
+    transition: all .3s;
+}
+.options:hover::after{
+    width: 100%;
+}
+.searching-tours{
+    padding-top: 24px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    background: #0A6FE5;
+    margin-top: -3px;
+    border-radius: 10px;
+    outline: none;
+}
+.ui-slider-horizontal .ui-slider-range {
+    background-color: #0A6FE5;
+    height: 4px;
+}
+.range-caption p{
+   text-align: center;
+   margin-bottom: 15px;
+   margin-left: 80px;
+}
+.ui-widget.ui-widget-content, 
+.ui-corner-all {
+    border: none;
+    background: #E6F0FD;
+    height: 4px;
+}
+.ui-widget.ui-widget-content,
+.ui-corner-all{
+    border: none;
+}
+
+.pagination-inner{
+    display: flex;
+    justify-content: center;
+}
+.pagination-list ul{
+    display: flex;
+}
+.pagination-list li{
+    margin-right: 12px;
+}
+.pagination-list button{
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #ACC1DA;
+    color: #58616D;
+    font-family: caps;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.pagination-list button:hover{
+    background-color: #0A6FE5;
+    color: white;
+    border: none;
+}
+.points{
+    margin-top: 7px;
+}
+
+/* **************** country-search-page ************** */
+
+.country-search{
+    padding-top: 49px;
+}
+.country-name{
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+}
+.country-name img{
+    width: 100%;
+    object-fit: cover;
+}
+.country-background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000;
+    opacity: 40%; 
+}
+.country-title h2{
+    color: white;
+    position: absolute;
+    font-family: caps;
+    font-size: 96px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+/* **************** blog ************** */
+
+.blog-section{
+    padding-top: 44px;
+}
+.blog-inner h2{
+    text-align: center;
+    font-family: caps;
+    font-size: 48px;
+}
+.blog-img-frame{
+    border-radius: 8px;
+}
+.blog-img-frame img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.blog-items{
+    padding-top: 46px;
+}
+.blog-caption h3{
+    font-size: 14px;
+    color: #0A6FE5;
+    /* padding-top: 10px; */
+}
+.blog-caption p{
+    font-family: caps;
+    font-size: 16px;
+    padding-top: 6px;
+    padding-bottom: 48px;
+}
+/* **************** blog-detail ************** */
+
+.blog-guide{
+    padding-top: 33px;
+}
+.blog-guide-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.go-to-blog{
+    border-radius: 16px;
+    height: max-content;
+    padding: 8px 12px 9px;
+    border: 1px solid #E6F0FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #58616D;
+}
+.go-to-blog img{
+    margin-right: 16px;
+}
+.blog-guide-inner ul{
+    display: flex;
+}
+.blog-guide-inner li{
+    margin-right: 12px;
+}
+.blog-guide-inner li a img{
+    margin-left: 12px;
+}
+.blog-guide-inner li a{
+    font-size: 14px;
+    color: #58616D;
+}
+.blog-content{
+    padding-top: 31px;
+}
+.main-content-img{
+    border-radius: 8px;
+}
+.main-content-img img{
+    width: 100%;
+    height: auto;
+}
+.blog-caption{
+    padding-top: 12px;
+}
+.caption-space{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-caption h2{
+    color:#0A6FE5;
+    font-size: 14px;
+    font-weight: bold;
+}
+.blog-caption span{
+    font-size: 14px;
+    color: #58616D;
+}
+.blog-title{
+    padding-top: 12px;
+    font-size: 24px;
+    font-family: caps;
+    font-weight: bold;
+}
+.main-content p{
+    padding-top: 24px;
+    font-size: 14px;
+    color: #58616D;
+    line-height: 24px;
+}
+.similar-blogs{
+    display: flex;
+    justify-content: center;
+    font-family: caps;
+    font-size: 18px;
+}
+.right-blog-frame {
+    border-radius: 8px;
+    margin-top: 11px;
+}
+.right-blog-frame img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.right-blog-caption{
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 24px;
+}
+.right-blog-caption h3{
+    color: #0A6FE5;
+    font-size: 14px;
+    font-weight: bold;
+}
+.right-blog-caption p{
+    margin-top: 6px;
+    font-family: caps;
+    font-size: 16px;
+}
+/* **************** our-team ************** */
+
+.team-section{
+    padding-top: 44px;
+}
+.team-title{
+    display: flex;
+    justify-content: center;
+    font-family: caps;
+    font-size: 48px;
+}
+.team-photo{
+    padding-top: 46px;
+    border-radius: 8px;
+}
+.team-photo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.teammates{
+    padding-top: 48px;
+}
+.teammate{
+    padding-bottom: 24px;
+    display: flex;
+}
+.teammate-photo{
+    border-radius: 8px;
+}
+.teammate-resume{
+    margin-left: 24px;
+}
+.teammate-info{
+    display: flex;
+    flex-direction: column;
+}
+.teammate-info h2{
+    font-size: 14px;
+    font-family: caps;
+    padding-top: 12px;
+    font-weight: bold;
+}
+.teammate-info span{
+    font-size: 14px;
+    color: #0A6FE5;
+    font-weight: bold;
+}
+.teammate-info a{
+    font-size: 14px;
+    color: #58616D;
+    font-weight: bold;
+}
+.teammate-info p{
+    padding-top: 12px;
+    font-size: 14px;
+    color: #58616D;
+}
+
+/* **************** visa ************** */
+.visa-section{
+    padding-top: 49px;
+}
+.visa-img{
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.visa-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.visa-background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000;
+    opacity: 40%; 
+}
+.visa-img-title h2{
+    color: white;
+    font-family: caps;
+    font-size: 48px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-48%, -142%);
+}
+.visa-img-title p{
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 51%;
+    left: 16%;
+    text-align: center;
+    width: 67%;
+}
+.visa-info-title{
+    font-size: 16px;
+    font-family: caps;
+    color: #0A6FE5;
+}
+.visa-cards{
+    padding-top: 54px;
+}
+.card-inner{
+    padding: 0px 48px;   
+    border: 1px solid #ACC1DA;
+    border-radius: 8px; 
+    margin-bottom: 49px;
+}
+.visa-section-info{
+    padding-top: 48px;
+    padding-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+}
+.visa-info-subtitle{
+    font-size: 29px;
+    font-family: caps;
+    margin-top: 9px;
+    line-height: 36px;
+}
+.visa-info-subtitle span{
+    font-size: 31px;
+    font-family: caps;
+}
+.visa-section-info a,
+.country-visa-info a{
+   width: 162px;
+   height: 48px;
+   background-color: #0A6FE5;
+   display: flex;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   margin-top: 11px;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: caps;
+   transition: 0.5s;
+  
+}
+.visa-section-info a:hover,
+.country-visa-info a:hover{
+    border-radius: 1px solid #0A6FE5;
+    background-color: white;
+    color: #0A6FE5;
+    border: 1px solid #0A6FE5;
+    
+}
+.visa-section-info a img,
+.country-visa-info a img{
+    margin-left: 15px;
+}
+.visa-section-info a:hover img,
+.country-visa-info a:hover img{
+    filter: invert(67%) sepia(86%) saturate(2561%) hue-rotate(203deg) brightness(95%) contrast(92%);
+}
+
+.country-card{
+    border: 1px solid #ACC1DA;
+    border-radius: 8px; 
+    margin-bottom: 48px;
+}
+.country-visa-info{
+    padding: 45px 0 45px 48px;
+}
+.country-visa-info h2{
+    font-family: caps;
+    font-size: 30px;
+}
+
+.card-items{
+    position: relative;
+}
+.tower-img-frame{
+    width: 100%;
+    height: 260px
+}
+.tower-img-frame img{
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    
+}
+.visa-text{
+    position: relative;
+}
+.usa-visa{
+    margin: 8px 3px 0px;
+    
+}
+.visa-canada{
+    margin: 8px 30px 0px;
+    
+}
+.visa-england{
+    margin: 11px 29px 0px;
+    
+}
+.visa-text p{
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #58616D;
+    font-family: caps;
+    top: 28px;
+}
+
+
+.contact-section{
+    padding-top: 92px;
+}
+.contact-title h2{
+    width:504px;
+    font-size: 48px;
+    font-family: caps;
+}
+.contact-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-img-frame{
+    width: 588px;
+}
+.contact-img-frame img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.map-section{
+    padding-top: 94px;
+}
+.map-frame{
+    border-radius: 8px;
+    background-color: #E6F0FD;
+    padding: 24px 33px 24px 24px;
+}
+.map{
+    width: 768px;
+    height: 312px;
+    border: 1px solid #0A6FE5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.map-content{
+    width: 100%;
+    height: 100%;
+}
+.info-box{
+    width: 386px;
+    height: 360px;
+    background-color: #0A6FE5;
+    border-radius: 8px;
+    padding-top: 48px;
+    padding-left: 48px;
+    position: absolute;
+    right: -26px;
+}
+
+.info-box li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.info-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+.map-items{
+    display: flex;
+    position: relative;
+}
+.detail-information h2{
+    color: white;
+    font-family: caps;
+    font-size: 14px;
+}
+.detail-information a{
+    color: white;
+    font-size: 14px;
+}
+.social-icons{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    padding-right: 48px;
+}
+.social-icons li{
+    margin-right: 24px;
+}
+.intro-responsive{
+    display: none;
+}
+.request-tour{
+    display: none;
+}
+@media(max-width: 1260px){
+    .intro .left{
+        padding-top: 50px;
+        padding-bottom: 24px;
+    }
+    .intro-read-more{
+        justify-content: center;
+    }
+    .intro .sm-title{
+        justify-content: center;
+    }
+    .intro .title{
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+    }
+    .main-subtitle{
+        display: flex;
+        justify-content: center;
+    }
+    .intro .price{
+        font-size: 25px;
+    }
+    .intro .price b{
+        font-size: 35px;
+    }
+    .intro sub{
+        font-size: 20px;
+        top: 27px;
+    }
+    .circle-frame{
+        display: flex;
+        justify-content: center;
+    }
+    .searching-box{
+        left: 70px;
+    }
+    .dubai-visa .white-block .title{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .day-tour .title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .day-tour .price {
+        font-size: 17px;
+    }
+    .day-tour .price b{
+        font-size: 23px;
+    }
+    .primary-btn{
+        padding: 0px 12px;
+    }
+    .blog .right .img-frame{
+        width: 200px;
+        height: 160px;
+    }
+    .blog .right li{
+        flex-direction: column;
+        align-items: unset;
+    }
+    /* header */
+    .detail-address{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    .info-box{
+        width: 100%;
+        height: auto;
+        padding-left: unset;
+        padding-top: unset;
+    }
+    .map-frame{
+        margin-bottom: 48px;
+    }
+    header .menu{
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 190px;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        background: white;
+        display: none;
+    }
+    header .menu li{
+        margin-bottom: 10px;
+    }
+    .menu-btn{
+        display: block;
+        margin-left: 24px;
+    }
+    .menu-btn img{
+        width: 25px;
+    }
+    .close-menu{
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        z-index: 1;
+        display: block;
+    }
+    .close-menu img{
+        width: 15px;
+    }
+    /* visa */
+    .visa-img-title h2{
+        font-size: 28px;
+    }
+    .visa-img-title p{
+        font-size: 12px;
+        
+    }
+    .visa-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* detail */
+    .detail-back{
+        display: none;
+    }
+    .detail-photo-items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .detail-right{
+        margin-top: 6px;
+    }
+    .detail-right ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .detail-right li{
+        margin-right: 6px;
+    }
+    .detail-back{
+        width: 100%;
+    }
+  
+    .detail-inner{
+        padding:0px 90px;
+        
+    }
+    .info-items{
+        flex-wrap: wrap;
+    }
+    .main-info{
+        width: 100%;
+    }
+    .call-for-more{
+        width: 100%;
+    }
+    .offer-list{
+        width: 100%;
+        justify-content: center;
+    }
+    .main-info-title{
+        display: flex;
+        justify-content: center;
+    }
+    .main-info-title span{
+        display: none;
+    }
+    .top-side{
+        justify-content: center;
+    }
+    .booking{
+        padding-bottom: 24px;
+    }
+    .visa-info-subtitle,
+    .visa-info-subtitle span{
+        font-size: 24px;
+    }
+    .country-visa-info h2{
+        font-size: 26px;
+    }
+    .web-guide{
+        display: none;
+    }
+    .countries{
+        margin-bottom: 24px;
+    }
+    .ui-widget.ui-widget-content, .ui-corner-all{
+        margin-bottom: 24px;
+    } 
+    .search-bar{
+        justify-content: center;
+        margin-top: 24px;
+    }
+    .range-caption{
+        margin-top: 24px;
+    }
+    .contact-title h2{
+        font-size: 32px;
+    }
+    .map-frame{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    .map-items{
+        flex-wrap: wrap;
+    }
+    .info-box{
+        position: unset;
+    }
+    .direction-list{       
+        width: 95%;
+    }
+}
+@media(max-width: 990px){
+    .direction-list{       
+        width: 93%;
+    }
+    .dubai-visa .main-img{
+        display: none;
+    }
+    .dubai-visa .white-block{
+        padding-right: unset;
+    }
+    .dubai-visa .white-block .left {
+        padding: unset;
+        width: 100%;
+        align-items: center;
+    }
+    .request-tour{
+        display: flex;
+    }
+    .blog .right li {
+        flex-direction: unset;
+        align-items: center;
+    }
+    .right-blog-list{
+        border-left: unset;
+        padding-left: unset;
+    }
+    .info-box{
+        padding-top: unset;
+        padding-left: unset;
+    }
+    .contact-img-frame{
+        display: none;
+    }
+    .contact-title{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .contact-title h2{
+        font-size: 25px;
+    }
+    .detail-inner{
+        padding: 0;
+    }
+    table tbody tr td:nth-of-type(5){
+        font-size: 13px;
+    }
+    .blog-inner h2{
+        font-size: 28px;
+    }
+    .team-title{
+        font-size: 28px;
+    }
+    .visa-section-info{
+        align-items: center;
+        text-align: center;
+    }
+    .visa-info-subtitle,
+    .visa-info-subtitle span{
+        font-size: 20px;
+    }
+    .country-visa-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:45px 0 45px 0px;
+    }
+    .visa-text-background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .visa-text p{
+        margin-left: 48px;
+    }
+    .tower-img-frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tower-img-frame img{
+        right: unset;
+    }
+    .searching-box{
+        display: none;
+    }
+    .day-tour .item{
+        display: unset;
+    }
+    .day-tour .left{
+        display: flex;
+        justify-content: center;
+    }
+    .day-tour .right{
+        margin-top: 20px;
+    }
+    .day-tour .wrapper{
+        justify-content: inherit;
+    }
+    .right-subtitle{
+        padding-left: unset;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
+@media(max-width: 768px){
+    .direction-list{       
+        width: 95%;
+    }
+    .dubai-visa .white-block .title {
+        font-size: 16px;
+    }
+    .intro .title{
+        font-size: 20px;
+    }
+    table{
+        width: fit-content;
+    }
+    table thead{
+        display: flex;
+    }
+    table tbody{
+        display: flex;
+        flex-direction: column;
+    }
+    table thead tr td:nth-child(5){
+        display: none;
+    }
+    table thead tr td:nth-child(2){
+        padding-left: 56px;
+    }
+    table tbody tr{
+        position: relative;
+    }
+    table tbody tr td:nth-last-child(1){
+        margin-top: -6px;
+        justify-content: center;
+    }
+    table tbody tr td button{
+        z-index: 2;
+        margin-left: 9px;
+    }
+    table tbody tr td:first-child img{
+        display: none;
+    }
+    table tbody tr td:nth-child(2){
+        padding: 6px 22px;
+    }
+    table tbody tr td:nth-child(3){
+        padding-left: 74px;
+    }
+    table tbody tr td:nth-child(4){
+        padding-left: 77px;
+    }
+    table tbody tr td:nth-of-type(5){
+        position: absolute;
+        left: 127px;
+        border: 1px solid #E6F0FD;
+        border-radius: 8px;
+    }
+    table tbody tr:last-child{
+        display: none;
+    }
+    .visa-text p{
+        font-size: 12px;
+    }
+    .detail-address{
+        flex-direction: column;
+    }
+    .header-info .call{
+        font-size: 10px;
+    }
+    .footer-inner{
+        flex-wrap: wrap;
+    }
+    .social-footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .center-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .visa-img-title h2{
+        font-size: 16px;
+    }
+    .visa-img-title p{
+        font-size: 10px;
+    }
+    .visa-info{
+        flex-direction: column;
+    }
+  
+    .warning-items li{
+        font-size: 11px;
+    }
+    
+    
+    .offer-list a{
+        font-size: 11px;
+    }
+    .gallery{
+        bottom: 8px;
+    }
+ 
+    .blog-guide-inner ul{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .offer-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-img{
+        display: flex;
+        margin-right: unset;
+
+    }
+    .gallery{
+        display: none;
+    }
+    .gallery-img-responsive{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        bottom: 10px;
+        right: 24px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: 0.5s
+    }
+    .gallery-img-responsive:hover{
+        border:  1px solid #0A6FE5;
+
+    }
+    .gallery-img-responsive:hover img{ 
+        filter: invert(67%) sepia(86%) saturate(2561%) hue-rotate(203deg) brightness(95%) contrast(92%);
+    }
+    .bottom-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .country-title h2{
+        font-size: 54px;
+    }
+    .covid-btn{
+        display: none;
+    }
+    .day-tour .img-frame{
+        width: 500px;
+        height: 500px;
+    }
+    .time-table{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:530px){
+   
+    .right-subtitle{
+        justify-content: center;
+        padding-right: 25px;
+    }
+    .day-tour .img-frame{
+        width: 350px;
+        height: 350px;
+    }
+    .day-tour .wrapper {
+        justify-content: space-between;
+    }
+    .day-tour .title{
+        font-size: 14px;
+    }
+    .dubai-visa .white-block .title {
+        font-size: 12px;
+    }
+    .circle-frame .wrapper{
+        width: 400px;
+    }
+    .circle-frame .img-frame{
+        height: 170px;
+    }
+    .intro .title{
+        font-size: 15px;
+    }
+    .request-btn {
+        width: 150px;
+    }
+    .blog .right .img-frame {
+        width: 140px;
+        height: 100px;
+    }
+    .blog .right li {
+        flex-direction: column;
+    }
+    .blog .right .sm-title{
+        text-align: center;
+    }
+    .blog .right .title{
+        text-align: center;
+    }
+    
+    table tbody tr td:nth-child(2){
+        padding: 6px 0px;
+    }
+    table tbody tr td:nth-child(3){
+        padding-left: 55px;
+    }
+    table tbody tr td:nth-child(4){
+        padding-left: 60px;
+    }
+    table thead tr td{
+        padding: 6px 16px;
+    }
+    table tbody tr td{
+        padding: 6px 16px;
+    }
+    table thead tr{
+        font-size: 12px;
+    }
+    table thead tr td:nth-child(2){
+        padding-left: 12px;
+    }
+    table tbody tr td:first-child{
+        padding-left: 16px;
+    }
+    table tbody tr td button {
+        margin-left: 40px;
+    }
+    table tbody tr{
+        font-size: 12px;
+    }
+    table tbody tr td:nth-of-type(5){
+        left: 90px;
+    }
+    .header-info .call{
+        display: none;
+    }
+    .visa-info h2{
+        font-size: 20px;
+    }
+    .teammate{
+        flex-direction: column;
+        align-items: center;
+    }
+    .teammate-resume{
+        text-align: center;
+    }
+    .blog-guide{
+        display: none;
+    }
+    .blog-title{
+        font-size: 14px;
+    }
+    .visa-text p{
+        font-size: 9px;
+        line-height: 16px;
+        top: 2px;
+    }
+    .tower-img-frame img,
+    .usa-visa,
+    .visa-canada,
+    .visa-england
+        {
+        width: 100%;
+        height: auto;
+    }
+    .main-info-title h2{
+        font-size: 16px;
+    }
+    .calling{
+        font-size: 10px;
+    }
+    .cost{
+        font-size: 16px;
+    }
+    .cost b{
+        font-size: 20px;
+    }
+    .bottom-side sub{
+        font-size: 10px;
+    }
+    .call-for-more{
+        margin-left: unset;
+    }
+    .country-title h2{
+        font-size: 30px;
+    }
+    .social-icons{
+        padding-left: 48px;
+    }
+    .contact-title h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .covid-btn{
+        display: none;
+    }
+    .blog .title{
+        font-size: 12px;
+    }
+}
+@media(max-width:360px){
+    .direction-list{       
+        width: 93%;
+    }
+    .day-tour .img-frame{
+        width: 280px;
+        height: 280px;
+    }
+    .dubai-visa .white-block .title {
+        font-size: 10px;
+    }
+    .intro-responsive{
+        display: flex;
+    }
+    .intro{
+        display: none;
+    }
+    .responsive-img{
+        position: relative;
+    }
+    .responsive-wallpaper{
+        width: 100%;
+    }
+    .responsive-background{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: black;
+        top: 0;
+        opacity: 40%;
+    }
+    .responsive-caption{
+        width: 100%;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translate(-50%,-42%);
+    }
+    .responsive-title{
+        font-family: caps;
+        color: white;
+        font-size: 14px;
+    }
+    .responsive-caption h2{
+        font-size: 20px;
+        font-family: caps;
+        color: white;
+        text-align: center;
+        margin-top: 9px;
+        line-height: 30px;
+    }
+    .responsive-price{
+        font-size: 24px;
+        color: white;
+    }
+    .responsive-price b{
+        font-size: 36px;
+        color: white;
+    }
+    .responsive-read-more{
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 14px;
+        font-family: caps;
+        font-weight: bold;
+    }
+    .request-btn{
+        position: absolute;
+        top: 24px;
+        right: 64px;
+        width: 188px;
+    }
+    .responsive-read-more img{
+        margin-left: 8px;
+    }
+    table tbody tr td:nth-child(2){
+        padding: 6px 0px;
+    }
+    table tbody tr td:nth-child(3){
+        padding-left: 55px;
+    }
+    table tbody tr td:nth-child(4){
+        padding-left: 30px;
+    }
+    table thead tr td{
+        padding: 6px 16px;
+    }
+    table tbody tr td{
+        padding: 6px 16px;
+    }
+    table thead tr{
+        font-size: 12px;
+    }
+    table thead tr td:nth-child(2){
+        padding-left: 12px;
+    }
+    table tbody tr td:first-child{
+        padding-left: 16px;
+    }
+    table tbody tr td button {
+        margin-left: 40px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    table tbody tr{
+        font-size: 12px;
+    }
+    table tbody tr td:nth-of-type(5){
+        left: 90px;
+    }
+    .visa-text p{
+        font-size: 8px;
+        line-height: 10px;
+        top: 33px;
+    }
+    .country-visa-info h2{
+        font-size: 15px;
+    }
+    .visa-img-title h2{
+        font-size: 12px;
+    }
+    .visa-img-title p{
+        font-size: 6px;
+    }
+    .search-bar button{
+        width: 170px;
+    }
+}
